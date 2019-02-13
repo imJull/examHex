@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_padding">25</dimen>
+    <dimen name="fab_paddingTOP">150</dimen>
+    <dimen name="respuesta">80</dimen>
+    <dimen name="fab_paddingBOT">500</dimen>
+</resources>

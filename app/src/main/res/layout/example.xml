@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="Convertidor Hexadecimal"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="@dimen/fab_padding"
+        android:layout_marginTop="@dimen/fab_paddingTOP"
+        android:layout_marginEnd="@dimen/fab_padding"
+        android:layout_marginBottom="@dimen/fab_padding"
+        android:hint="@string/num1"
+        android:padding="@dimen/fab_padding"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/fab_paddingTOP"
+        android:layout_marginEnd="56dp"
+
+        android:text="CONVERTIR"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="312dp"
+        android:text="0"
+        android:textAlignment="center"
+
+
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="@dimen/respuesta" />
+
+
+</RelativeLayout>
