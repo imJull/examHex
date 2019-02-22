@@ -3,6 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    // Título de la La aplicación
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
@@ -14,35 +15,40 @@
         android:textAlignment="center"
         android:textSize="24sp" />
 
+    //Es la parte donde el usuario ingresa el texto
     <EditText
-        android:id="@+id/num1"
-        android:layout_width="200dp"
+        android:id="@+id/txrnum1"
+        android:layout_width="160dp"
         android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="@dimen/fab_padding"
         android:layout_marginTop="@dimen/fab_paddingTOP"
         android:layout_marginEnd="@dimen/fab_padding"
-        android:layout_marginBottom="@dimen/fab_padding"
+        android:layout_marginBottom="508dp"
         android:hint="@string/num1"
-        android:padding="@dimen/fab_padding"
-        android:inputType="number"/>
+        android:inputType="number"
 
+        android:padding="@dimen/fab_padding" />
+
+    //Boton de Conversion
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnconvert"
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="@dimen/fab_paddingTOP"
-        android:layout_marginEnd="56dp"
+        android:layout_marginEnd="47dp"
 
         android:text="CONVERTIR"
         android:textAlignment="textStart" />
 
+        // El la seccion donde se almacena el resultado final
     <TextView
-        android:id="@id/respuesta"
+        android:id="@+id/txtresp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="312dp"
+        android:layout_marginBottom="265dp"
         android:text="0"
         android:textAlignment="center"
 
